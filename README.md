@@ -2,6 +2,6 @@
 
 Скрипт написаный на `Lua`,  добавляющий пагинацию между файлами `Markdown`.
 
-Подробнее [здесь…](docs/README.md)
+Подробнее [здесь…](https://a374ru.github.io/pagination_markdown/)
 
 

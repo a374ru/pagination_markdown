@@ -11,12 +11,5 @@ Nihil vitae velit voluptates quos, vero laboriosam, consectetur sed expedita fug
 Necessitatibus, aliquam facere? Dolorum quaerat sit omnis ullam porro perspiciatis cumque, inventore, provident accusantium non corporis dicta veritatis ea a iure natus doloribus repellendus ipsa explicabo numquam odio fuga aut?
 Sunt, minima dolorum perspiciatis ipsam mollitia provident eius consequuntur nesciunt eum eligendi. Dolores ad debitis temporibus odit sunt cupiditate ipsam perferendis dicta mollitia repudiandae asperiores corporis optio voluptas, in consequuntur.
 
-<!--ystm_start-->
-<br>
 
- |||| 
- |:---|:---:|---:| 
- [←——](#)|[ 🔝 ](#)|[——→](002-file.md) 
 
- <br>
-<!--ystm_end-->
