@@ -7,3 +7,12 @@ Vel ipsa animi minima voluptate sint, perferendis cum provident accusantium at E
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut maiores fugiat et.
 
 
+<!--ystm_start-->
+<br>
+
+ |||| 
+ |:---|:---:|---:| 
+ [←——](001-file.md)|[ 🔝 ](#)|[——→](404.md) 
+
+ <br>
+<!--ystm_end-->

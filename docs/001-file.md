@@ -13,3 +13,12 @@ Sunt, minima dolorum perspiciatis ipsam mollitia provident eius consequuntur nes
 
 
 
+<!--ystm_start-->
+<br>
+
+ |||| 
+ |:---|:---:|---:| 
+ [←——](readme.md)|[ 🔝 ](#)|[——→](002-file.md) 
+
+ <br>
+<!--ystm_end-->
