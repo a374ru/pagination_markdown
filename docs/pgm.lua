@@ -9,6 +9,7 @@ PathToFolder = "./docs"
 Fpath = PathToFolder
 Backward = "readme.md"
 Forward = "readme.md"
+str = 0
 
 Tbl = {}
 Ys = 0;
@@ -24,6 +25,7 @@ end
 
 for index, namePage in ipairs(table_md) do
     print("ФАЙЛ ==-----------------=-> " .. namePage)
+    str = index
     if -- список исключённых страниц
     namePage ~= "404.md" then
 
@@ -33,11 +35,15 @@ for index, namePage in ipairs(table_md) do
         if index ~= 1 then
             Backward = table_md[index - 1]
         end
-        if index ~= #table_md then
+        if index ~= #table_md and table_md[index+1]~= "404.md" then
             Forward = table_md[index + 1]
+            else
+                Forward = table_md[index+2]
         end
       ---[[  
         if namePage == "README.md" or namePage == "readme.md" then
+            str = " 🏠 "
+            Backward = "#"
             Forward = table_md[1]
         end 
         --]]
@@ -94,8 +100,8 @@ for index, namePage in ipairs(table_md) do
         end
 
         -- Шаблон пагинации для файлов `markdown` в единой директории
-        Template = "<!--ystm_start-->\n<br>\n\n |было|есть|будет| \n |:---|:---:|---:| \n [←——](" .. Backward ..
-                       ")|[ 🔝 ](#)|[——→](" .. Forward .. ") \n\n <br>\n<!--ystm_end-->\n"
+        Template = "<!--ystm_start-->\n<br>\n\n |назад|".. str .. "|далее| \n |:---|:---:|---:| \n [←←←](" .. Backward ..
+                       ")|[ 🔝 ](#)|[→→→](" .. Forward .. ") \n\n <br>\n<!--ystm_end-->\n"
 
         File2:write(Template)
 
