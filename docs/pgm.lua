@@ -94,7 +94,7 @@ for index, namePage in ipairs(table_md) do
         end
 
         -- Шаблон пагинации для файлов `markdown` в единой директории
-        Template = "<!--ystm_start-->\n<br>\n\n |прошлое||будущее| \n |:---|:---:|---:| \n [←——](" .. Backward ..
+        Template = "<!--ystm_start-->\n<br>\n\n |было|есть|будет| \n |:---|:---:|---:| \n [←——](" .. Backward ..
                        ")|[ 🔝 ](#)|[——→](" .. Forward .. ") \n\n <br>\n<!--ystm_end-->\n"
 
         File2:write(Template)

@@ -10,7 +10,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut maiores fugiat et.
 <!--ystm_start-->
 <br>
 
- |прошлое||будущее| 
+ |было|есть|будет| 
  |:---|:---:|---:| 
  [←——](001-file.md)|[ 🔝 ](#)|[——→](404.md) 
 

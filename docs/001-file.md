@@ -16,7 +16,7 @@ Sunt, minima dolorum perspiciatis ipsam mollitia provident eius consequuntur nes
 <!--ystm_start-->
 <br>
 
- |прошлое||будущее| 
+ |было|есть|будет| 
  |:---|:---:|---:| 
  [←——](readme.md)|[ 🔝 ](#)|[——→](002-file.md) 
 
